@@ -129,7 +129,7 @@ nav .fa {
         display: block;
     }
     .nav-menu {
-        position: absolute;
+        position: fixed;
         background: white;
         height: 100vh;
         width: 200px;
@@ -140,6 +140,7 @@ nav .fa {
         transition: 1s;
     }
     nav .fa {
+        color: black;
         display: block;
         margin: 10px;
         font-size: 24px;
@@ -163,7 +164,7 @@ nav .fa {
     justify-content: center;
     justify-items: center;
     height: 100vh;
-    flex-basis: 50%;
+    flex-basis: 45%;
     position: sticky;
     top: 0;
 }
@@ -187,7 +188,7 @@ nav .fa {
   }
 
 .right {
-    flex-basis: 50%;
+    flex-basis: 55%;
     height: 100vh;
     position: sticky;
     top: 0;
@@ -196,8 +197,8 @@ nav .fa {
 
 .card {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
     transform: translate(-50%, -50%);
     width: 500px;  
     height: 350px;
@@ -239,8 +240,8 @@ nav .fa {
 }
   
     @media (max-width: 700px) {
-      
         .card {
+            box-sizing: border-box;
             width: 50vw;
             aspect-ratio: 500 / 350;
             margin: 1rem auto;
@@ -354,7 +355,7 @@ footer {
   }
 
 
-  .sub-header, .sub-header-2, .sub-header-3 {
+  .sub-header, .sub-header-2, .sub-header-3, .sub-header-4{
     position: relative;
     height: 50vh;
     width: 100%;
@@ -377,9 +378,14 @@ footer {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(Images/background4.jpg);
 }
 
+.sub-header-4 {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(Images/background5.jpeg);
+}
+
 .sub-header .txt-box,
 .sub-header-2 .txt-box,
-.sub-header-3 .txt-box{
+.sub-header-3 .txt-box,
+.sub-header-4 .txt-box{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -459,7 +465,19 @@ footer {
     transform: scale(1.1);
   }
 
+  @media (max-width: 700px) {
+    .abt-col img {
+      box-sizing: border-box;
+    }
+    .abt-col {
+        flex-basis: 100%;
+    }
 
+    .abt-col img {
+        width: 100%;
+    }
+    
+  }
   .pj {
     display: flex;
     gap: 2rem;
@@ -586,3 +604,42 @@ footer {
       width: auto;
     }
   }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+
+  .contact-col {
+    position: relative;
+    top: 20px;
+    flex-basis: 48%;
+    margin-bottom: 30px;
+  }
+
+  .contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .contact-col div .fa {
+    font-size: 28px;
+    color:#666;
+    margin: 10px;
+    margin-right: 30px;
+  }
+
+  
+  .contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+  }
+
+  

@@ -7,7 +7,7 @@ function showMenu() {
 
 function hideMenu() {
     navMenu.style.right = "-200px";
-    }
+}
 
 const cards = document.querySelectorAll('.card');
 
