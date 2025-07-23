@@ -1,0 +1,17 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+  
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 15px;
+}
+  
+  .item i {
+    font-size: 1.25rem;
+    line-height: 1;
+}

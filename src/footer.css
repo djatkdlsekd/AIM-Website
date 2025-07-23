@@ -93,15 +93,3 @@ col:nth-child(3) {
 }
 
 
-.sub-header,
-.sub-header-2,
-.sub-header-3,
-.sub-header-4 {
-    position: relative;
-    height: 50vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}

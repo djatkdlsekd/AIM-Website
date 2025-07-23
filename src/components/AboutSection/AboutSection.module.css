@@ -1,0 +1,36 @@
+.aboutUs {
+    width: 80%;
+    margin: 0 auto;
+    padding : 80px 0 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abtCol {
+    flex: 1 1 30%;
+    padding: 30px 2px;
+}
+
+.abtCol h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.abtCol p {
+    padding: 15px 0 25px;
+    font-size: 30px;
+}
+
+.abtCol img {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media (max-width: 700px) {
+    .abtCol {
+        flex-basis: 100%;
+    }
+}

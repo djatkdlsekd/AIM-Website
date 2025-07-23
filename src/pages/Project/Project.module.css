@@ -1,0 +1,12 @@
+.pj {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+
+.listWrapper {
+    flex: 1;
+    min-width: 200px;
+  }

@@ -1,0 +1,28 @@
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+.row {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+  
+.contactCol {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .contactCol {
+      width: 100%;
+    }
+}

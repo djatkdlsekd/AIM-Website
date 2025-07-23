@@ -1,7 +1,5 @@
-// import { useEffect, useRef } from "react";
 import React from "react";
 import Ticker from "./Ticker";
-import "./style.css";
 
 const Home = () => {
   return (

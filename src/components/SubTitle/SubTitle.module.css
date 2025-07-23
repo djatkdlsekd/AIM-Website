@@ -1,0 +1,10 @@
+.titleWrapper {
+    position: static;
+    transform: none;
+    margin: 2rrem 0;
+    text-align: center;
+}
+
+.titleWrapper h1 {
+    font-size: clamp(1.5rem, 15vw, 5rem);
+}

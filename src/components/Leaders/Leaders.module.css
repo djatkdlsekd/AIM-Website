@@ -1,0 +1,18 @@
+.memberSection {
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.txtBox2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: clamp(1.5rem, 15vw, 5rem);
+}
+
+.leadersGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}

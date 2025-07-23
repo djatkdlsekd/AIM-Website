@@ -1,0 +1,23 @@
+.form {
+    flex-direction: column;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #bbb;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form button {
+    padding: 0.75rem;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+

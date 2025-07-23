@@ -1,0 +1,33 @@
+.card {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 0.5rem;
+}
+
+.card h3 {
+    margin-top: 0.5rem;
+}
+
+.card p {
+    margin-top: 0.25rem;
+    opacity: 0.8;
+}
+

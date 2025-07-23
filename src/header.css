@@ -80,6 +80,10 @@
     display: none;
 }
 
+nav .fa {
+    display: none;
+}
+
 @media (max-width: 700px) {
 
     .fa.fa-bars,
